@@ -1535,6 +1535,12 @@
     );
     window.open("https://wa.me/917676006074?text=" + message, "_blank");
   }
+  <script>
+/* TEMPORARY: Disable all alert popups */
+window.alert = function() {
+  console.log("Alert blocked");
+};
 </script>
 </body>
 </html>
+
