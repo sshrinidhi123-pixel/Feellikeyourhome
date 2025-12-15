@@ -876,6 +876,21 @@
   </style>
 </head>
 <body>
+<!-- FIXED LOGIN BUTTON -->
+<div style="position:fixed; top:16px; right:16px; z-index:9999;">
+  <a href="./auth/login.html"
+     style="
+       background:#ff7a18;
+       color:white;
+       padding:10px 18px;
+       border-radius:22px;
+       text-decoration:none;
+       font-weight:600;
+       font-size:14px;
+     ">
+    Login / Sign up
+  </a>
+</div>
 <!-- NEW WORKING LOGIN BUTTON -->
 <div style="position:fixed; top:15px; right:15px; z-index:9999;">
   <a href="auth/login.html"
@@ -1535,12 +1550,6 @@
     );
     window.open("https://wa.me/917676006074?text=" + message, "_blank");
   }
-  <script>
-/* TEMPORARY: Disable all alert popups */
-window.alert = function() {
-  console.log("Alert blocked");
-};
 </script>
 </body>
 </html>
-
